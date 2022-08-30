@@ -109,8 +109,8 @@ body {
 }
 
 .error-prompt {
-  display: none;
-  /* position: absolute; */
+  display: none;  
+  position: absolute;
   left: 0;
   top: 35px;
   font-size: 10px;
@@ -195,6 +195,7 @@ body {
 }
 
 .error-prompt {
+  position: static;
   text-align: center;
   padding-left: 0;
 }
